@@ -38,6 +38,20 @@
             {% endfor %}
 
         </table>
+        <table border="2px">
+            <tr>
+                <th>player_name</th>
+                <th>date</th>
+            </tr>
+
+            {% for a in access %}
+            <tr>
+            <th>{{a.player_name}}</th>
+            <th>{{a.date}}</th>
+            </tr>
+
+            {% endfor %}
+        </table>
     </center>
 </body>
 </html>
