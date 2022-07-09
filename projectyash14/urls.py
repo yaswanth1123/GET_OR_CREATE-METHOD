@@ -20,4 +20,6 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('display_topics/',display_topics,name='display_topics'),
+    path('update_web/',update_web,name='update_web'),
+    path('delete_web/',delete_web,name='delete_web'),
 ]
